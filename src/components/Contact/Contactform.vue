@@ -69,7 +69,7 @@
       const submitForm = () => {
         console.log('Form submitted:', form);
         // Reset form if needed
-        Object.keys(form).forEach(key => (form[key] = ''));
+       // Object.keys(form).forEach(key => (form[key] = ''));
       };
   
       return { form, submitForm };
